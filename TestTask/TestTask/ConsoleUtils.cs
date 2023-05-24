@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using TestTask.Shapes;
+﻿using TestTask.Shapes;
 
 namespace TestTask
 {

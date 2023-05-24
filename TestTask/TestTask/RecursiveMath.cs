@@ -22,6 +22,11 @@ namespace TestTask
 
         public static float Pow(float number, int power)
         {
+            if (power == 0)
+            {
+                return 1.0f;
+            }
+
             if (ApproximatelyEquals(number,0.0f) && power <= 0) {
                 
                 throw new ArithmeticException("Can not raise 0 to a power less than 1");
